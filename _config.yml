@@ -1,12 +1,12 @@
 # Site settings
-title: Frank's Blog
-email: flinhong@hotmail.com
-author: Frank Lin
+title: Dxs's Blog
+email: zeohan.dxs@gmail.com
+author: Zeo Han
 
-description: This personal blog was built with ❤️ by Frank Lin. Thanks for GitHub and Jekyll, I can fully handle all my contens.
+description: A personal blog. Thanks GitHub and Jekyll. Special thanks the theme maker.
 
 # Base url
-url: "http://flinhong.github.io"
+url: "http://dxsooo.github.io"
 
 # Pre-processing
 
@@ -59,13 +59,3 @@ gems:
 
 feed:
   path: atom.xml
-
-# Embeds
-disqus_name: flinhong            # Your site name at Disqus
-reading_time: true    # Show est. reading time for posts
-comments: disqus      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
-google_api_key: "AIzaSyDyjuRINP4K_rYn_JlSKVGxl-li36EIDBo" # https://code.google.com/apis/console/
-# google api used for google maps
-google_analytics_ua: UA-64243703-1  # Google Analytics site specific id
-google_cse_id:  # Google Custom Search Engine unique id, please fill this id in search.html page
-addthis_pubid: ra-55d1d3f27f6078ce  # Get your pubid at https://www.addthis.com/dashboard
