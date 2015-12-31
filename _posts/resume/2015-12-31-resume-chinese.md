@@ -2,7 +2,7 @@
 layout: post
 title: Resume
 tags:
-    - C#
+    - Resume
 category: Resume
 
 image: http://i63.tinypic.com/219uebs.png
