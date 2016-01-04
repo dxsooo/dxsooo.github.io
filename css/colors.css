@@ -58,3 +58,11 @@ nav.site_navigation ul.menu > li.has_dt_mega_menu > ul.dt_mega_menu,
 #wide_slider_pager .box.active {
     border-color: #f85050
 }
+
+/*------------------------------------------------------------------------------
+    Highlights
+    (AQI)
+------------------------------------------------------------------------------*/
+#header .header_meta .weather_forecast .AQI {
+    color: #f8ff50
+}

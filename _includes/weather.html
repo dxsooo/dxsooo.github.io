@@ -1,4 +1,5 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript">
 
 $.get("http://ipinfo.io", function (response) {
@@ -18,6 +19,10 @@ $.get("http://ipinfo.io", function (response) {
       $("#temp").html(temp + "°C");
     });
 
+    $.get("http://dxsapis.applinzi.com/currentAQI.php", function (result) {
+      $("#AQI").html("AQI(BJ)-"+result.AQI);
+    },"jsonp");
+
 }, "jsonp");
 </script>
 
@@ -25,4 +30,5 @@ $.get("http://ipinfo.io", function (response) {
   <i class="wi wi-day-cloudy"></i>
   <span class="city" id="city"></span>
   <span class="temp" id="temp"></span>
+  <span class="AQI" id="AQI"></span>
 </div><!-- End Weather forecast -->
