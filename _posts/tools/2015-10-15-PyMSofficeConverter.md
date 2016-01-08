@@ -28,12 +28,13 @@ Recently supports
 ## Documentation
 Copy the `MSofficeConverter.py` to current directory or under `site-packages` of your python.  
 And then  
-```python
+{% highlight python linenos %}
 from MSofficeConverter import easy_convert
 
 easy_convert('x:/test.doc','x:/test.docx') 
 # full path of file, here convert test.doc to test.docx
-```
+{% endhighlight %}
+
 Also, you can use a class to do this, but please remember to call `quit()` when your work is over.  
 ```python
 from MSofficeConverter import converter
