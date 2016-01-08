@@ -11,6 +11,9 @@ toc: true
 ## Repo
 [StockQuotes1](https://github.com/dxsooo/StockQuotes1)
 
+## Overview
+A personal China stock quotes viewing application for Android. (Version 1)
+
 ## Usage
 Build the project and install the apk in your Android phone. The default API level is 16(Android 4.1.2) but you can modify the project for your target API level.
 
