@@ -3,12 +3,12 @@ layout: post
 category: App
 title: Stock Quotes ver1
 tags: Android
-image: material/StockQuotes1.jpg
+image: https://github.com/dxsooo/dxsooo.github.io/raw/master/material/StockQuotes1.jpg
 description: A personal China stock quotes viewing application for Android. (Version 1)
 toc: true
 ---
 
-## GitHub
+## Repo
 [StockQuotes1](https://github.com/dxsooo/StockQuotes1)
 
 ## Usage
