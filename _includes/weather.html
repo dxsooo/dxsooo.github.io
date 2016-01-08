@@ -20,7 +20,7 @@ $.get("http://ipinfo.io", function (response) {
     });
 
     $.get("http://dxsapis.applinzi.com/currentAQI.php", function (result) {
-      $("#AQI").html("AQI(BJ)-"+result.AQI);
+      $("#AQI").html("AQI(BJ):"+result.AQI);
     },"jsonp");
 
 }, "jsonp");
