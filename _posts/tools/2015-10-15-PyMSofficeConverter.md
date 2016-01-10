@@ -3,7 +3,7 @@ layout: post
 title: Converter for office files 
 category: tools
 tags: python
-image: https://github.com/dxsooo/dxsooo.github.io/raw/master/material/office2013.jpg
+image: https://github.com/dxsooo/dxsooo.github.io/raw/master/material/Office2013.jpg
 description: Microsoft office files(.doc/.xls/.ppt etc) converter written in Python.
 toc: true
 ---
