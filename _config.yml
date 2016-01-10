@@ -15,7 +15,7 @@ highlighter: pygments
 kramdown:
   input:          GFM
   auto_ids:       true
- auto_id_prefix: 'id-'
+  auto_id_prefix: 'id-'
 safe: true
 permalink: pretty # YYYY/MM/DD/page-title/index.html
 lsi: false # Lexical analysis (true) takes longer for higher quality
