@@ -2,7 +2,7 @@
 layout: post
 title: Image Crawl 
 category: tools
-tags: python
+tags: Python
 image: https://github.com/dxsooo/dxsooo.github.io/raw/master/material/scrapylogo.png
 description: Based on Scrapy, ImageCrawl is a web image crawler that outputs images' origin url and downloads images automatically. Recently supports:Flickr,Instagram,Google Image Search,Bing Image Search.
 toc: true
