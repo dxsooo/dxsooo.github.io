@@ -10,52 +10,52 @@ url: "http://dxsooo.github.io"
 
 # Pre-processing
 
-#markdown: kramdown
-#highlighter: pygments
-#kramdown:
-#  input:          GFM
-#  auto_ids:       true
-# auto_id_prefix: 'id-'
-#safe: true
-#permalink: pretty # YYYY/MM/DD/page-title/index.html
-#lsi: false # Lexical analysis (true) takes longer for higher quality
+markdown: kramdown
+highlighter: pygments
+kramdown:
+  input:          GFM
+  auto_ids:       true
+ auto_id_prefix: 'id-'
+safe: true
+permalink: pretty # YYYY/MM/DD/page-title/index.html
+lsi: false # Lexical analysis (true) takes longer for higher quality
 
 # Where things are
-#source:       .
-#destination:  ./_site
-#plugins_dir:  ./_plugins
-#layouts_dir:  ./_layouts
-#data_dir:     ./_data
-#ncludes_dir: ./_includes
-#collections:  null
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+collections:  null
 
 # Handling Reading
-#include:      [".htaccess"]
-#exclude:      ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
-#keep_files:   [".git", ".svn"]
-#encoding:     "utf-8"
-#markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+include:      [".htaccess"]
+exclude:      ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Lists
 # Filtering Content
-#show_drafts: null
-#limit_posts: 0
-#future:      false
-#unpublished: false
-#tag_items: 20     # Applies to categories and tags lists
-#related_items: 3  # Fix 3 items in single post
-#recent_items: 20  # Applies to recent posts, apps lists
-#recent_posts: 7
-#paginate: 5       # Applies to blog page for pagination
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+tag_items: 20     # Applies to categories and tags lists
+related_items: 3  # Fix 3 items in single post
+recent_items: 20  # Applies to recent posts, apps lists
+recent_posts: 7
+paginate: 5       # Applies to blog page for pagination
 # Pagination path › Important for blog page in /blog/ to work
-#paginate_path: "/blog/page:num/"
-#timezone:      null
+paginate_path: "/blog/page:num/"
+timezone:      null
 
 # Plugins
-#whitelist: []
-#gems:
-#  - jekyll-feed
-#  - jekyll-paginate
+whitelist: []
+gems:
+  - jekyll-feed
+  - jekyll-paginate
 
-#feed:
-#  path: atom.xml
+feed:
+  path: atom.xml
