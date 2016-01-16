@@ -64,7 +64,7 @@ html {
     font-family: sans-serif
 }
 body {
-    background-image: url(../demo/body/5.png);
+    /*background-image: url(../demo/body/5.png);*/
     background-color: #fff;
     font-size: 14px;
     line-height: 22px;
